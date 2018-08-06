@@ -1,0 +1,5 @@
+先运行MPC钱包，在钱包中找一个账户地址，将指定它为挖矿的目标地址，即挖到的币记到该地址下
+
+将Miner.zip解压到一目录使用记事本， 修改miner.bat文件，将其中--coinbase-addr=1CMzmoyyGWz5vrDdCUCS2KQ4aBzat71PPA，  coinbase-addr后面的1CMzmoyyGWz5vrDdCUCS2KQ4aBzat71PPA修改成上一步找到的MPC账户地址。
+保存miner.bat，在保证MPC钱包打开的情况下，双击miner.bat运行挖矿程序
+注意windows的杀毒软件很可能识别挖矿软件为病毒，杀毒软件会弹出提示窗口提示杀毒，这时需要将minerd.exe程序加入到杀毒软件的非检查列表中。需要看一下相关杀毒软件的帮助。
